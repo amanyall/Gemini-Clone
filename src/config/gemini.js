@@ -1,5 +1,5 @@
 
-//
+//AIzaSyAW4FUWqUJ9vznzE6ICZgK2R9CpbV-dE5I
  // Install the Generative AI SDK
  
  // $ npm install @google/generative-ai
@@ -12,7 +12,7 @@ import {
   } from "@google/generative-ai";
   
 //   const apiKey = process.env.GEMINI_API_KEY;
-const apiKey = "AIzaSyAW4FUWqUJ9vznzE6ICZgK2R9CpbV-dE5I"
+const apiKey = process.env.secretkey;
   const genAI = new GoogleGenerativeAI(apiKey);
   
   const model = genAI.getGenerativeModel({
