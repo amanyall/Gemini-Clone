@@ -1,5 +1,5 @@
 
-//AIzaSyAW4FUWqUJ9vznzE6ICZgK2R9CpbV-dE5I
+
  // Install the Generative AI SDK
  
  // $ npm install @google/generative-ai
